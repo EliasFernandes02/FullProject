@@ -21,7 +21,6 @@ export default function Login() {
                 </form>
 
             </div>
-            Login
         </div>
     )
 }
