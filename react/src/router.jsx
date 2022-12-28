@@ -1,6 +1,6 @@
 import {createBrowserRouter, Navigate} from "react-router-dom";
 import Login from "./views/Login";
-import SingUp from "./views/SingUp";
+import SignUp from "./views/SignUp.jsx";
 import Users from "./views/Users";
 import Notfound from "./views/Notfound";
 import DefaultLayout from "./Components/DefaultLayout";
@@ -37,8 +37,8 @@ import Dashboard from "./views/Dashboard";
                  element:<Login/>
              },
              {
-                 path:'/singup',
-                 element:<SingUp/>
+                 path:'/signup',
+                 element:<SignUp/>
              },
 
          ]
